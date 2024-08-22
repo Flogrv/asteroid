@@ -1,3 +1,5 @@
+import pygame
+
 SCREEN_WIDTH = 1280
 SCREEN_HEIGHT = 720
 
@@ -12,3 +14,9 @@ PLAYER_SPEED = 200
 SHOT_RADIUS = 5
 PLAYER_SHOOT_SPEED = 500
 PLAYER_SHOOT_CD = 0.3
+
+SCORE_INCREMENT = 20
+
+# SOUND
+pygame.mixer.init()
+SHOT_SOUND = pygame.mixer.Sound("sounds/shot.ogg")
