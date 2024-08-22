@@ -1,5 +1,5 @@
-import pygame
 import sys
+import pygame
 from asteroid import Asteroid
 from asteroidfield import AsteroidField
 from constants import *

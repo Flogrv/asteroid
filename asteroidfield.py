@@ -1,3 +1,7 @@
+"""
+AsteroidField class 
+It is responsible for asteroids logics in the game.
+"""
 import pygame
 import random
 from asteroid import Asteroid

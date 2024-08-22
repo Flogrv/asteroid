@@ -1,5 +1,7 @@
+"""
+Module for handle circular shapes in the game.
+"""
 import pygame
-
 
 class CircleShape(pygame.sprite.Sprite):
     def __init__(self, x, y, radius):

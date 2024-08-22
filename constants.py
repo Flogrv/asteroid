@@ -1,3 +1,6 @@
+"""
+Constants of the game
+"""
 import pygame
 
 SCREEN_WIDTH = 1280
